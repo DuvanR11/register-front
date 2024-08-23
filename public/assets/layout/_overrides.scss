@@ -1,0 +1,45 @@
+//Suggested location to add your overrides so that migration would be easy by just updating the SASS folder in the future
+.p-inputtext.p-bloqueado.p-component {
+    background-color: #e1e1e1;
+    font-weight: 500;
+    pointer-events: none;
+  }
+  .p-dropdown.p-bloqueado.p-component {
+    background-color: #e1e1e1;
+    font-weight: 500;
+    pointer-events: none;
+    color:black;
+  }
+  .p-panel-icons .p-panel-toggler {
+    display: none !important;
+  }
+
+.banner-container {
+    // position: absolute;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Ajusta según tus necesidades */
+    margin-bottom: 2rem;
+}
+
+.banner-image{
+  width: 80%;
+  border: 5px solid #00b09b;
+}
+
+.footer {
+  padding: 5rem;
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.footer-copyright {
+  font-weight: bold;
+  color: #00b09b;
+}
+
